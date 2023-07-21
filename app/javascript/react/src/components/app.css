@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+ .theme-btn {
+	 font-size: 16px !important;
+	 line-height: 25px !important;
+	 font-weight: 700 !important;
+	 background: #0073ec !important;
+	 padding: 14px 53px !important;
+	 border-radius: 5px !important;
+	 text-transform: none !important;
+}
+  .form-wrapper {
+	 background: url("https://images.unsplash.com/photo-1506765515384-028b60a970df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFubmVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80") no-repeat;
+	 background-size: cover;
+	 height: 100vh;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+} 
+ .home_page {
+	/* background-color: #f0f0f0; */
+	 background: url("https://images.unsplash.com/photo-1506765515384-028b60a970df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFubmVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80") no-repeat;
+	background-size: cover;
+	height: 100vh; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+  }
+  .show_list_button{
+	position: absolute;
+    right: 120px;
+    top: 37px;
+  }
+  .centered_container {
+	background-color: #ffffff;
+	width: 500px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+  }
+  
+  .category_url_form {
+	padding: 40px;
+	border-radius: 8px;
+  }
+  
+  .form_field {
+	margin-bottom: 30px;
+  }
+  
+  input[type="text"] {
+	width: 94%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+  }
+  
+  button {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	transition: .4s;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  button:hover{
+	background-color: #ec6100;
+  }
+
+  /* table style */
+  #customers {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  #customers td, #customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+  
+  #customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+  }
+
+  .list_btn{
+	background-color: #fc03a5;
+  }
